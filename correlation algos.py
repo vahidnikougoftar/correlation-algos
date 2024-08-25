@@ -1,3 +1,8 @@
+import numpy as np 
+import pandas as pd 
+import seaborn as sns 
+import random 
+
 df = pd.DataFrame(np.random.rand(1000,1),columns=['x'])
 
 def gen_lin(x):
